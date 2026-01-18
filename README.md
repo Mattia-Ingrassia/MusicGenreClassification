@@ -92,16 +92,16 @@ pip install -r requirements.txt
 ### Running the Notebooks (Kaggle)
 
 1. Import the notebook on kaggle (clear the cells output if the file size is too big)
-2. Import the GTZAN 2.0 dataset to the workspace
-3. Turn on the GPU (P100 is suggested)
-4. Run the notebook
+2. Add the GTZAN 2.0 dataset to the workspace
+3. Update the `BASE_PATH` variables for Kaggle
+4. Turn on the GPU (P100 is suggested)
+5. Run the notebook
 
-### Running the Notebooks (TODO)
+### Running the Notebooks (Other systems)
 
-1. Connect the notebook to the environment containing all the necessary packages.
-2. Import the GTZAN 2.0 dataset
-Update the `BASE_PATH` variable in each notebook to match your dataset location.
-
+1. Connect the notebook to the environment containing all the necessary packages
+2. Update the `BASE_PATH` variable in each notebook to match your dataset location
+3. Run the notebook
 
 ## Model Comparison
 
